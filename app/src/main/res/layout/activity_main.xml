@@ -30,7 +30,7 @@
         android:hint="Please enter your name"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
-        android:background="@drawable/rounded_editText"
+        android:background="@drawable/rounded_edittext"
         android:padding="10dp"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"

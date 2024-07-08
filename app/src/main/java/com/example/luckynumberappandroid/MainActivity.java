@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 String userName = editText.getText().toString();
                 Intent goIntent = new Intent(MainActivity.this , SecondActivity.class);
                 goIntent.putExtra("name" , userName);
+                startActivity(goIntent);
             }
         });
     }
